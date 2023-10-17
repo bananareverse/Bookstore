@@ -1,0 +1,92 @@
+/* En general cosas esteticas */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Todo contendra esto que este en el body, como herencia */
+body {
+    background-color: #ffffff;
+    padding-top: 80px;
+    color: rgb(0, 0, 0);
+    font-family: 'Gabarito', sans-serif;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.carritoimg {
+    width: 40px;
+    height: 60px;
+}
+.Libros {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.Libros div {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.75);
+    background-color: #c52525;
+    border-radius: 20px;
+}
+
+.Libros > div:hover {
+    background-color: #610e0e;
+}
+
+.opciones {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.opciones p {
+    font-size: 20px;
+    font-weight: 100;
+}
+.opciones button {
+    background-color: #ffffff;
+    width: 300px;
+    height: 35px;
+    border-radius: 10px;
+    border: black;
+    font-size: 17px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.opciones button:hover {
+    background-color: #bd5822;
+}
+
+.carrito button {
+    background-color: #ffffff;
+    width: 300px;
+    height: 35px;
+    border-radius: 10px;
+    border: black;
+    font-size: 17px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.carrito button:hover {
+    background-color: #bd5822;
+}
